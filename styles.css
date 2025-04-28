@@ -107,8 +107,6 @@ body{
 .rodape{
     text-align: center;
    
-  
-  
 }
 .rodape__lista{
    
@@ -142,4 +140,47 @@ body{
 .container__botao:hover{
     background-color: var(--botao-azul-efeito);
     color: var(--cor-de-fundo);
+}
+
+@media screen and (max-width: 768px){
+
+.container{
+    display: block;
+    height: 50vh;
+    align-items:center;
+    text-align: center;
+}
+.container__imagem{
+    width: 50vw;
+}
+.container__caixa{
+    margin: 0em 1em;
+
+}
+.secundario{
+    margin: 0 ;
+    text-align: center;
+}
+.secundario__imagem{
+    width: 40vw;
+}
+.dispositivos__lista{
+    display: block;
+}
+.rodape__lista{
+    display: block;
+}
+.principal{
+    width: 100vw;
+    background-size:contain;
+    align-items:center;
+    text-align: center
+   
+}
+.container__caixa{
+    margin: 7em 25em 4em 3em;
+    align-items: center;
+    text-align: center;
+}
+
 }
