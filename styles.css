@@ -146,23 +146,34 @@ body{
 
     .container{
         display: block;
-        height: 50vh;
+        height: 100vh;
         align-items:center;
         text-align: center;
       
     }
     .container__imagem{
-       margin: 1em;
-    }
-    .container__caixa{
-        margin: 1em;
+     
+        margin: 0.5em 0 0.5em 0;
+        width: 80vw;
     
     }
+    .container__descricao{
+        padding: 1em;
+      
+    }
+    .container__caixa{
+        margin: 0.5em;
+    
+    }
+    .container__botao{
+        margin-bottom: 1em;
+        
+    }
     .secundario{
-        margin: 1em ;
+        margin: 0.5em ;
     }
     .secundario__imagem{
-        width: 50vw;
+        width: 80vw;
     }
     .dispositivos__lista{
         display: block;
@@ -172,12 +183,8 @@ body{
     }
     .principal{
         background-size: contain;
-        margin: 1em;
+        margin: 0.5em;
       
-
-    }
-    .container__caixa{
-        margin: 1.5em;
     }
     
     }
